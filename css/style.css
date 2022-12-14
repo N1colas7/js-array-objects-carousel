@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 3rem auto;
+    height: 600px;
+    width: 60%;
+    display: flex;
+}
+
+.bigImage{
+    background-color: brown;
+    height: 100%;
+    width: 70%;
+}
+
+.containerLittleImage{
+    height: 100%;
+    width: 30%;
+    background-color: blueviolet;
+}
+
+.boxImage{
+    height: calc(100% / 5);
+    width: 100%;
+}
