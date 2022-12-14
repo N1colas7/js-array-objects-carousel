@@ -26,3 +26,14 @@ let oggetti = [
         text : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, itaque harum non suscipit natus aliquid."
     },
 ]
+
+// Aggiungiamo le immagini, il titolo, e il testo tramite js
+const itemsContent = document.getElementById('bigImage')
+
+for(let i = 0; i < oggetti.length; i++){
+    itemsContent.innerHTML += `
+        <img src="./img/${oggetti[i].img}" width="200px"/>
+        <h3>${oggetti[i].title}</h3>
+        <p>${oggetti[i].text}</p>
+        `
+    }
