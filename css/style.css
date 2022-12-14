@@ -27,3 +27,24 @@
     height: calc(100% / 5);
     width: 100%;
 }
+
+/*Creiamo le frecce per scorrere le immagini*/
+
+.next{
+    position: absolute;
+    right: 29%;
+    padding: 8px;
+    background-color: rgb(153, 152, 152);
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.prev{
+    position: absolute;
+    right: 29%;
+    bottom: 10%;
+    padding: 8px;
+    background-color: rgb(153, 152, 152);
+    border-radius: 50%;
+    font-size: 25px;
+}
